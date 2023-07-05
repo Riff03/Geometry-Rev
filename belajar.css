@@ -1,0 +1,55 @@
+.menu-bljr {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.container {
+  margin-top: 10px;
+  background-color: #9ecdea;
+  height: 90px;
+  width: 60%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  position: sticky;
+  z-index: 99;
+}
+
+.container div {
+  border-radius: 50%;
+  width: 10%;
+  height: 85%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container> div> img {
+  width: 70%;
+  height: 70%;
+  background-color: white;
+}
+
+.container > div:hover{
+    transform: scale(1.05) ;
+    cursor: pointer;
+}
+
+.bg-blajar{
+    height: 487px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.materi{
+  width: 50%;
+  height: 95%;
+  border-style: solid;
+}
