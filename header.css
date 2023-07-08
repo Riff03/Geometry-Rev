@@ -1,11 +1,15 @@
+header{
+    z-index: 99;
+}
+
 nav{
     display: flex;
     align-items: center;
     height: 70px;
     width: 100%;
     background-color: #c7e3f5;
-    position: static;
-    z-index: 99;
+    position: sticky;
+    z-index: 90;
 }
 
 nav div{
