@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="header.css"/>
+    <link rel="stylesheet" href="login.css"/>
+    <title>Document</title>
+  </head>
+  <body style="margin: 0">
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="Logo/Logo.png" alt="" srcset="" />
+        </div>
+        <div class="menu">
+          <a id="nav-home" href="home.html">Home</a>
+          <a id="nav-bljr" href="belajar.html">Belajar</a>
+          <a id="nav-game" href="game.html">Bermain</a>
+          <!-- <a id="nav-kontak" href="contact.html">Contact</a> -->
+          <a id="nav-login" href="login.html">Login</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <input type="checkbox" id="check">
+        <div class="login form">
+          <header>Login</header>
+          <form action="#">
+            <input type="text" placeholder="Enter your email">
+            <input type="password" placeholder="Enter your password">
+            <a href="#">Forgot password?</a>
+            <input type="button" class="button" id="button" value="Login">
+          </form>
+          <div class="signup">
+            <span class="signup">Don't have an account?
+             <label for="check">Signup</label>
+            </span>
+          </div>
+        </div>
+        <div class="registration form">
+          <header>Signup</header>
+          <form action="#">
+            <input type="text" placeholder="Enter your email">
+            <input type="password" placeholder="Create a password">
+            <input type="password" placeholder="Confirm your password">
+            <input type="button" class="button" id="button" value="Signup">
+          </form>
+          <div class="signup">
+            <span class="signup">Already have an account?
+             <label for="check">Login</label>
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
